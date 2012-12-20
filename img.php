@@ -9,7 +9,7 @@ header("Content-Type: image/png");
 @$_GET['text'] ? $name = $_GET['text'] : $name = "demo-text";
 
 // Formatted text that appears in the middle of the generated image
-$text = $width . "px-" . $height . "px-" . $name . ".jpg";
+$text = $width . "px-" . $height . "px-" . $name . ".png";
 
 // Create the image
 $im = imagecreatetruecolor($width, $height);
