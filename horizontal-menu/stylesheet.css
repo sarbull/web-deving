@@ -1,0 +1,89 @@
+body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	background-color:#ffffff;
+	background-image: url(hexellence.png);
+	background-repeat: repeat;
+}
+
+#menu {
+	margin: auto;
+	margin-top: 50px;
+	width: 884px;
+	padding: 25px 25px 25px 25px;
+	background-color: #ffffff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+}
+
+#menu ul {
+	list-style: none;
+	line-height: normal;
+}
+
+#menu ul li {
+	display: inline;
+}
+
+#menu ul li a {
+	float: left;
+	color:#ffffff;
+	display: block;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: none;
+	padding:5px 5px 5px 5px;
+	margin-right:5px;
+	background: -moz-linear-gradient(top, #295caa, #012b80);
+	background: -ms-linear-gradient(top, #295caa, #012b80);
+	background: -o-linear-gradient(top, #295caa, #012b80);
+	background: -webkit-linear-gradient(top, #295caa, #012b80);
+	background: linear-gradient(top, #295caa, #012b80);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#295caa', endColorstr='#012b80');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#295caa', endColorstr='#012b80')";
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #012b80;
+}
+
+#menu ul li a:active {
+	background: -moz-linear-gradient(top, #012b80, #295caa);
+	background: -ms-linear-gradient(top, #012b80, #295caa);
+	background: -o-linear-gradient(top, #012b80, #295caa);
+	background: -webkit-linear-gradient(top, #012b80, #295caa);
+	background: linear-gradient(top, #012b80, #295caa);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#012b80', endColorstr='#295caa');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#012b80', endColorstr='#295caa')";
+}
+
+#menu ul li .right {
+	float:right;
+}
+
+#content h1 {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+#content {
+	margin: auto;
+	margin-top: 10px;
+	width: 884px;
+	padding: 25px 25px 25px 25px;
+	background-color: #ffffff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+}
