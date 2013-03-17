@@ -1,9 +1,3 @@
-<?php
-	//Get data via GET method
-	@$_GET['width'] ? $width = $_GET['width'] : $width = 200;
-	@$_GET['height'] ? $height = $_GET['height'] : $height = 200;
-	@$_GET['text'] ? $name = $_GET['text'] : $name = "demo-text";
-?>
 <!doctype html>
 <html>
 <head>
@@ -23,7 +17,7 @@
 <body>
 	<div id="image">
 		<?php
-			echo '<img src="img.php?width='. $width .'&height='. $height .'&text='. $name .'">';
+			echo '<img src="img.php?width=200&height=200&text=demo-text">';
 		?>
 	</div>
 </body>
