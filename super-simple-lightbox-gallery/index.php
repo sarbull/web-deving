@@ -20,7 +20,7 @@
 
 	// \n lasa linie noua, \t lasa tab nou, sunt vizibile in codul sursa
 	$length = count($images);	//Numarul total de poze
-	$nr_coloane = 2;			//Cate coloane vrei sa aibe tabelul
+	$nr_coloane = 3;			//Cate coloane vrei sa aibe tabelul
 	$index = 1;
 
 	echo "<table>" . "\n";
