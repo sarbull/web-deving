@@ -20,11 +20,10 @@
 
 	// \n lasa linie noua, \t lasa tab nou, sunt vizibile in codul sursa
 	$length = count($images);	//Numarul total de poze
-	$nr_coloane = 3;			//Cate coloane vrei sa aibe tabelul
+	$nr_coloane = 2;			//Cate coloane vrei sa aibe tabelul
 	$index = 1;
 
-	echo "<table>" . "\n"; 
-	do {
+	echo "<table>" . "\n";
 		echo "\t" . "<tr>" . "\n";
 		foreach ($images as $image) {
 			echo "\t\t" . '<td>';
@@ -32,14 +31,13 @@
 					echo '<img src="images/examples/'. $image["thumb"] .'">';
 				echo '</a>';
 			echo '</td>' . "\n";
-			if($index % $nr_coloane == 0){
+			if($index % $nr_coloane == 0 && $index < $length){
 				echo "\t" . "</tr>" . "\n";
 				echo "\t" . "<tr>" . "\n";
 			}
 			$index++;
 		}
 		echo "\t" . "</tr>" . "\n";
-	} while ($index < $length);
 	echo "</table>" . "\n";
 ?>
 </body>	
