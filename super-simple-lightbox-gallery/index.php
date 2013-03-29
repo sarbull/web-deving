@@ -66,8 +66,6 @@
 		<td><a href="images/examples/image-5.jpg" rel="lightbox[images]"><img src="images/examples/thumb-5.jpg"></a></td>
 		<td><a href="images/examples/image-6.jpg" rel="lightbox[images]"><img src="images/examples/thumb-6.jpg"></a></td>
 	</tr>
-	<tr>
-	</tr>
 </table>
 </body>	
 </html> -->
