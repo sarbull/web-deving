@@ -1,0 +1,11 @@
+
+Amazon live search
+
+  @author Sirbu Nicolae-Cezar
+  @website http://www.sarbull.ro
+
+This tiny application uses PHP, javascript, jQuery, CSS and HTML5.
+I used the AmazonECS php library for post search on Amazon. I collect
+all the info through a $.post in jquery on the search.php file
+transmitting keyword and page as INPUT data and recieveing a json object
+with the results from Amazon.
