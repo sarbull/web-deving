@@ -9,6 +9,8 @@ function populateContent(data) {
 }
 
 function getContent(keyword, page){
+  $("html,body").animate({ scrollTop: 0 }, "fast");
+  $("#target").html('<p align="center"><img src="img/loader4.gif"></p>');
   $.post(
     "search.php",
     {
@@ -25,8 +27,6 @@ $(document).ready(function() {
   $("#search").click(function(){
     var keyword = $("#keyword").val();
     var page   = 1;
-    $("html,body").animate({ scrollTop: 0 }, "fast");
-    $("#target").html('<p align="center"><img src="img/loader4.gif"></p>');
     getContent(keyword, page);
   });
 
@@ -34,8 +34,6 @@ $(document).ready(function() {
     var self = this;
     var keyword = $("#keyword").val();
     var page = $(self).data("id");
-    $('html,body').animate({ scrollTop: 0 }, 'fast');
-    $("#target").html('<p align="center"><img src="img/loader4.gif"></p>');
     getContent(keyword, page);
     return false;
   });
