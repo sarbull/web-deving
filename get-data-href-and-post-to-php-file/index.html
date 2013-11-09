@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Post href value from a link to a PHP file</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#content button.click").click(function() {
+                var href_value = $(this).data("href");
+                $.post("test.php", { href: href_value });
+                window.location.href = "http://www.sarbull.ro/demo/href/posted.txt";
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="content">
+        <button data-href="http://www.google.ro" class="click">Click me</button>
+    </div>
+</body>
+</html>
