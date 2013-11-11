@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Inbox</title>
+    <link rel="stylesheet" href="css/reset.css" media="all" type="text/css">
+    <link rel="stylesheet" href="css/stylesheet.css" media="all" type="text/css">
+    <link rel="stylesheet" href="css/buttons.css" media="all" type="text/css">
+    <script src="http://use.edgefonts.net/open-sans:n7,i7,n8,i8,i4,n3,i3,n4,n6,i6:all.js"></script>
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header class="shadow">
+            <h1>Inbox</h1>
+        </header>
+        <nav class="shadow">
+            <ul>
+                <li><a href="#logout">Settings</a></li>
+                <li><a href="#settings">Logout</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <div id="left">
+                <div class="shadow content mbottom">
+                    <span>Search by</span>
+                    <select name="type">
+                        <option value="subject">Subject</option>
+                        <option value="email">Email</option>
+                    </select>
+                    <input type="text" name="input_search" placeholder="Textul cautat" size="15">
+                    <button type="submit" name="search" class="btn white">Go</button>
+                </div>
+                <div class="shadow content">
+                    <h1>Folders</h1>
+                    <ul class="emailmenu">
+                        <li><a href="inbox.html">Inbox</a></li>
+                        <li><a href="sent.html">Sent</a></li>
+                        <li><a href="drafts.html">Drafts</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="right">
+                <div class="shadow content">
+                    <div>
+                        <input type="checkbox" name="checkall" id="checkall" value="1">
+                        <select name="actions" id="actions">
+                            <option value="delete">Delete</option>
+                            <option value="mread">Mark as read</option>
+                            <option value="munread">Mark as unread</option>
+                            <option value="spam">Mark as spam</option>
+                        </select>
+                    </div>
+                    <div id="emails">
+                        <div class="email" data-id="1">
+                            <span class="checkbox"><input type="checkbox" name="email1" id="email1" class="click_me" value="0"></span>
+                            <span class="subject read"><a href="">Subject1</a></span>
+                            <span class="email_sender">sirbunicolaecezar@gmail.com</span>
+                            <span class="date_recieved">21/11/2013</span>
+                            <br style="clear:both;">
+                        </div>
+                        <div class="email" data-id="2">
+                            <span class="checkbox"><input type="checkbox" name="email1" id="email1" class="click_me" value="0"></span>
+                            <span class="subject"><a href="">Promovare web</a></span>
+                            <span class="email_sender">contact@seo.com</span>
+                            <span class="date_recieved">02/10/2013</span>
+                            <br style="clear:both;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br style="clear:both;">
+        </div>
+        <footer class="shadow">
+            <p class="content">Aplicatii Web. Tema1 &copy; 2013</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,205 @@
+* {
+    outline:none;
+}
+
+body {
+    font-family: open-sans;
+    font-size: 12px;
+    background-color: #efeded;
+}
+
+header h1 {
+    margin:10px 0px 10px 0px;
+    padding:10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+nav ul {
+    text-align:right;
+    padding:10px 10px 10px 10px;
+}
+
+nav ul li {
+    display:inline;
+}
+
+nav ul li:after {
+    content: " • ";
+    color: #ccc;
+}
+
+nav ul li:last-child:after {
+    content: "";
+}
+
+nav ul li a {
+    text-decoration:none;
+    color: #00a500;
+}
+
+nav ul li a:hover {
+    text-decoration:underline;
+}
+
+#container {
+    width:800px;
+    margin:auto;
+}
+
+#content {
+    margin-top:10px;
+}
+
+#left {
+    width:230px;
+    float:left;
+    margin-right:10px;
+}
+
+#left .floatleft {
+    float:left;
+}
+
+#left .emailmenu {
+    margin-top:10px;
+    list-style: none;
+}
+
+#left .emailmenu li:last-child a {
+    margin-bottom:0px;
+}
+
+#left .emailmenu li a {
+    text-decoration:none;
+    display:block;
+    padding:5px 5px 5px 5px;
+    margin-bottom:5px;
+    color:#000000;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#left .emailmenu li a:hover {
+    background-color:#00a500;
+    color:#ffffff;
+}
+
+#right {
+    width:560px;
+    float:left;
+}
+
+#emails {
+    margin-top:5px;
+}
+
+#emails .email {
+    padding:5px 0px 5px 0px;
+}
+
+#emails .email .checkbox {
+    margin-right:10px;
+    display:block;
+    float:left;
+}
+
+#emails .email .subject {
+    font-weight:bold;
+    padding-top:3px;
+    width:220px;
+    display:block;
+    float:left;
+}
+
+#emails .email .subject a {
+    color: inherit;
+    text-decoration:none;
+}
+
+#emails .email .email_sender {
+    width:220px;
+    padding-top:3px;
+    display:block;
+    float:left;
+    cursor:default;
+}
+
+#emails .email .date_recieved {
+    text-align:right;
+    color:#8b8b8b;
+    width:67px;
+    padding-top:3px;
+    padding-right: 3px;
+    display:block;
+    float:left;
+    cursor:default;
+}
+
+#emails .email.selected {
+    background-color:rgba(0, 165, 0, 0.18);
+}
+
+#emails .email .read {
+    font-weight:normal;
+}
+
+footer {
+    margin-top:10px;
+}
+
+footer p {
+    text-align:right;
+    cursor:default;
+}
+
+/* Elemente comune */
+
+.content {
+    padding:10px 10px 10px 10px;
+}
+
+.mbottom {
+    margin-bottom:10px;
+}
+
+.shadow {
+    background-color: #fff;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,.1);
+    box-shadow: 1px 1px 3px rgba(0,0,0,.1);
+}
+
+button, select {
+    cursor:pointer;
+}
+
+input {
+    padding:5px 5px 5px 5px;
+    border:1px solid #ccc;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+input:focus {
+    border:1px solid #00a500;
+}
+
+select {
+    z-index:5;
+    -webkit-appearance: none;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding:6px 30px 6px 2px;
+    border:1px solid #ccc;
+    background:url(../img/arrow-down2.png);
+    background-position:right;
+    background-repeat:no-repeat;
+    font-size: 12px;
+}
+
+select:focus {
+    border:1px solid #00a500;
+}
+
+
