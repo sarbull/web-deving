@@ -1,0 +1,28 @@
+{
+	"auto_complete_delay": 200,
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"drag_text": false,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"font_face": "Consolas",
+	"font_size": 13,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"rulers":
+	[
+		80,
+		120
+	],
+	"scroll_past_end": true,
+	"shift_tab_unindent": true,
+	"show_encoding": true,
+	"soda_classic_tabs": true,
+	"tab_size": 2,
+	"vintage_start_in_command_mode": true
+}
