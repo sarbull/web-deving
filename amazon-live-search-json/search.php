@@ -2,9 +2,9 @@
 
 header('Content-Type: application/json');
 require 'lib/AmazonECS.class.php';
-defined(       'AWS_API_KEY') or define(       'AWS_API_KEY',  'AKIAJL6NZP6XMHK522QQ');
-defined('AWS_API_SECRET_KEY') or define('AWS_API_SECRET_KEY',  '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');
-defined( 'AWS_ASSOCIATE_TAG') or define( 'AWS_ASSOCIATE_TAG',  'widgetlink03-20');
+defined(       'AWS_API_KEY') or define(       'AWS_API_KEY',  '');
+defined('AWS_API_SECRET_KEY') or define('AWS_API_SECRET_KEY',  '');
+defined( 'AWS_ASSOCIATE_TAG') or define( 'AWS_ASSOCIATE_TAG',  '');
 
 $keyword = $_POST['keyword'];
 $page    = $_POST['page'];
